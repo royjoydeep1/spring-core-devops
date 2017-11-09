@@ -94,16 +94,11 @@
 	<distributionManagement>
 		<repository>
 			<id>central</id>
-			<name>d08b6f98c509-releases</name>
-			<url>http://18.216.187.16:8081/artifactory/libs-release-local</url>
+			<name>b840fbac574d-releases</name>
+			<url>http://18.221.111.233:8081/artifactory/libs-release</url>
 		</repository>
-
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>d08b6f98c509-snapshots</name>
-			<url>http://18.216.187.16:8081/artifactory/libs-snapshot-local</url>
-		</snapshotRepository>
 	</distributionManagement>
+
 
 
 </project>
