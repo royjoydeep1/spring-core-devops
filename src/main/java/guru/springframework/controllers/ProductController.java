@@ -20,6 +20,12 @@ public class ProductController {
         this.productService = productService;
     }
 
+    @RequestMapping("/product/test")
+    public String getTestProduct(@PathVariable Integer id, Model model){
+
+        return "Product-Test-02-Aug-2018";
+    }
+    
     @RequestMapping("/product/{id}")
     public String getProductById(@PathVariable Integer id, Model model){
 
